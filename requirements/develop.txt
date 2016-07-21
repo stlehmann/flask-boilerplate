@@ -1,0 +1,9 @@
+-r common.txt
+ipython
+ForgeryPy
+Pygments
+colorama
+coverage
+requests
+selenium
+hypothesis
