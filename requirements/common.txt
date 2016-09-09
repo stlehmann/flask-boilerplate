@@ -4,6 +4,7 @@ Flask-Migrate
 Flask-Script
 Flask-SQLAlchemy
 Flask-WTF
+gunicorn
 Jinja2
 SQLAlchemy
 WTForms
