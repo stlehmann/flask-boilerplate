@@ -2,7 +2,6 @@ FROM debian:latest
 RUN apt-get update -y
 RUN apt-get install -y python3-pip python3-dev build-essential
 RUN apt-get install -y nginx
-RUN apt-get install -y vim
 COPY . /app
 COPY webapp.conf /etc/nginx/sites-available/webapp.conf
 RUN ln -s /etc/nginx/sites-available/webapp.conf /etc/nginx/sites-enabled
