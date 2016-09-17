@@ -1,0 +1,9 @@
+version: '2'
+services:
+  flask-app:
+    image: mrl33h/flask
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    environment:
+      - FLASK_CONFIG=default
