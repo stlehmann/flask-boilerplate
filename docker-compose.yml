@@ -7,3 +7,4 @@ services:
     restart: unless-stopped
     environment:
       - FLASK_CONFIG=default
+      - APPLICATION_ROOT=/flask
